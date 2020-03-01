@@ -190,8 +190,8 @@
     height:637px; 
     left:0; 
     bottom:0; 
-    position:absolute;  
-    z-index:0;
+    position:absolute; 
+    z-index:1; 
 } 
  
 .feinman__title{ 
@@ -201,7 +201,6 @@
     font-weight: bold;
     text-align: center;
     margin: 0 auto;
-    z-index:1;
     position:relative; 
 } 
  
@@ -215,7 +214,6 @@
     text-align:right; 
     color: black; 
     text-decoration:none; 
-    z-index:1;
 } 
  
 .feinman__subtitle{ 
@@ -223,8 +221,7 @@
     line-height:51px; 
     font-size:36px; 
     font-weight:normal; 
-    z-index:1;
-    position:relative; 
+   position:relative; 
 } 
  
 .kaufman{ 
@@ -282,12 +279,12 @@
 } 
  
 .kaufman__triangle{ 
-    height:877px; 
-    width:877px; 
-    background-image:url(./images/triangle.svg); 
-    top:0; 
-    right:-210px; 
-    position:absolute; 
+   position: absolute;
+    width: 877px;
+    height: 877px;
+    right: -210px;
+    top:0;
+    z-index: -1;
 } 
  
 .footer{  
