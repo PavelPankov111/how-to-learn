@@ -202,6 +202,7 @@
     text-align: center;
     margin: 0 auto;
     position:relative; 
+    z-index:2;
 } 
  
 .feinman__link{ 
@@ -222,6 +223,7 @@
     font-size:36px; 
     font-weight:normal; 
    position:relative; 
+   z-index: 2;
 } 
  
 .kaufman{ 
