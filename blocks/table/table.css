@@ -5,8 +5,6 @@
 @import url(./__heading_theme_dark/table__heading_theme_dark.css);
 @import url(./__text_theme_dark/table__text_theme_dark.css);
 @import url(./_theme_dark/table_theme_dark.css);
-@import url(../digits/digits.css);
-@import url(../kaufman/kaufman.css);
 
 .table{   
     width:1100px;   
