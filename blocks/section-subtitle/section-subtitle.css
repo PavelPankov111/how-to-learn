@@ -1,0 +1,17 @@
+
+  @import url(./_theme_dark/section-subtitle_theme_dark.css);
+
+.section-subtitle{   
+    margin:auto;  
+}   
+
+.section-subtitle:last-of-type{
+    width: 60%; 
+    display:flex;   
+    justify-content:center;   
+    margin-top:20px;
+    margin-bottom:0;
+    line-height: 34px;
+    font-size:24px;
+    font-weight:normal;
+}
